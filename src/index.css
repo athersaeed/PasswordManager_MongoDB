@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+@layer components {
+  .mycontainer {
+    @apply container px-2 mx-auto;
+  }
+
+  .card-3d {
+    @apply bg-white shadow-lg rounded-lg p-6;
+  }
+}
